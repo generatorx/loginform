@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+p {
+	text-align: center;
+	font-size: 50px;
+}
+
+body {
+	background: url(free-images-for-websites-HD8.jpg);
+	background-size: cover;
+}
+
+.login-box {
+	width: 400px;
+	height: 400px;
+	background-color: transparent;
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px;
+
+}
+
+.login-avatar {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 38%;
+	top: -12%;
+	border-radius: 50%;
+	left: calc(50% - 50px);
+
+}
+
+h1 {
+	color: #000;
+	text-align: center;
+	font-size: 30px;
+	padding:0 0 20px;
+	font-weight: bolder;
+}
+
+
+.login-box p {
+	margin: 0;
+	padding:0;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.login-box input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login-box input[type="text"], input[type="password"] {
+	border: none;
+	background: transparent;
+	height: 30px;
+	border-bottom: 3px solid #000;
+}
+
+.login-box input[type="submit"] {
+	border: none;
+	outline: none;
+	height: 25px;
+	background: #000;
+	color: #fff;
+	font-size: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+	cursor: pointer;
+	background: gray;
+
+}
+.login-box a {
+	color: black;
+	font-size: 15px;
+}
+
+.login-box a:hover {
+	color: #fff;
+	cursor: pointer;
+}
